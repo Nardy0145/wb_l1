@@ -19,14 +19,22 @@ func main() {
 		return
 	}
 	endDuration := time.After(duration * time.Second)
+
+	// Функция, в которой будет происходить чтение/запись в этот канал, а также остановка
+
+	var x []int
+	ch := make(chan int, 1)
 	for {
 		select {
 		case <-endDuration:
 			fmt.Println("Timed out!")
+			fmt.Println(x)
 			return
 		default:
-			fmt.Println("One second has been passed.")
-			time.Sleep(1 * time.Second)
+			ch <- 1
+			x = append(x, <-ch)
+			time.Sleep(500 * time.Millisecond)
 		}
+
 	}
 }
