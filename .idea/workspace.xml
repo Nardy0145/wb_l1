@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bc72450-0993-4bfb-9179-00297d2ca849" name="Changes" comment="Q4 end; Q5 start">
-      <change afterPath="$PROJECT_DIR$/q6/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/q6/todo.txt" afterDir="false" />
+    <list default="true" id="7bc72450-0993-4bfb-9179-00297d2ca849" name="Changes" comment="q5 end ; q6 start">
+      <change afterPath="$PROJECT_DIR$/q7/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/q8/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/q9/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/q5/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/q5/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,21 +54,13 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/User&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Build.go build main.go (4)">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="L1" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/q3/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="L1" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/q4/main.go" />
+      <filePath value="$PROJECT_DIR$/q9/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -87,21 +79,29 @@
       <filePath value="$PROJECT_DIR$/q6/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="L1" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/q7/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="L1" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/q2/main.go" />
+      <filePath value="$PROJECT_DIR$/q8/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (4)" />
-        <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (5)" />
+        <item itemvalue="Go Build.go build main.go (4)" />
+        <item itemvalue="Go Build.go build main.go (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +123,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Q4 end; Q5 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q4 end; Q5 start" />
+    <MESSAGE value="q5 end ; q6 start" />
+    <option name="LAST_COMMIT_MESSAGE" value="q5 end ; q6 start" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
