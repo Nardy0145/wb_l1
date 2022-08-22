@@ -16,7 +16,7 @@ import (
 // Также, объявлена глобальная переменная (не нужна)
 
 func createHugeString(i int) string {
-	str := "x"
+	str := "π"
 	str = strings.Repeat(str, i)
 	return str
 }

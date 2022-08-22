@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bc72450-0993-4bfb-9179-00297d2ca849" name="Changes" comment="much exs">
-      <change afterPath="$PROJECT_DIR$/22/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/26/main.go" afterDir="false" />
+    <list default="true" id="7bc72450-0993-4bfb-9179-00297d2ca849" name="Changes" comment="some theory">
+      <change afterPath="$PROJECT_DIR$/Theory testing/14/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/21/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/03/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/15/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theory testing/13/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Theory testing/13/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +55,18 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/User&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\WILDBERRIES\L1\Theory testing\10" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="L1" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/22/main.go" />
+      <filePath value="$PROJECT_DIR$/Theory testing/11/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -71,7 +74,7 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/23/main.go" />
+      <filePath value="$PROJECT_DIR$/15/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -79,7 +82,7 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/24/main.go" />
+      <filePath value="$PROJECT_DIR$/Theory testing/13/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -87,7 +90,7 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/25/main.go" />
+      <filePath value="$PROJECT_DIR$/Theory testing/14/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -95,16 +98,16 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/26/main.go" />
+      <filePath value="$PROJECT_DIR$/23/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go (5)" />
-        <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build main.go (4)" />
+        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +134,9 @@
     <MESSAGE value="q10 end" />
     <MESSAGE value="refactor names" />
     <MESSAGE value="much exs" />
-    <option name="LAST_COMMIT_MESSAGE" value="much exs" />
+    <MESSAGE value="L1 Practice - END" />
+    <MESSAGE value="some theory" />
+    <option name="LAST_COMMIT_MESSAGE" value="some theory" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

@@ -2,21 +2,15 @@ package main
 
 import "fmt"
 
-func someAction(v *[]int, b int) {
+func someAction(v *[]int8, b int8) {
+	// v[0] = 100
 	*v = append(*v, b)
 }
 
 func main() {
-	var a = []int{1, 2, 3, 4, 5}
-	var b = [5]int{1, 2, 3, 4, 5}
-	c := b[:]
-	c = append(c, 6)
+	var a = []int8{1, 2, 3, 4, 5}
+	someAction(&a, 6)
 	fmt.Println(a)
-	fmt.Println(b)
-	b[0] = 100
-	fmt.Println(c)
-	someAction(&c, 7)
-	fmt.Println(c)
 }
 
-// Выведет 100 2 3 4 5. Д
+// Выведет 100, 2, 3, 4, 5. Нужно передавать ссылку и указатель
