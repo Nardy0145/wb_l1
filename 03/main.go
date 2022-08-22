@@ -17,11 +17,13 @@ func main() {
 	// Создадим цикл, конкурентно высчитывающий квадраты и записывающий результат в х
 	for _, value := range nums {
 		wg.Add(1)
+
 		go func(value int) {
 			defer wg.Done()
 			i := value * value
 			x = append(x, i)
 		}(value)
+
 		wg.Wait()
 	}
 	// Посчитаем сумму чисел всего х.
